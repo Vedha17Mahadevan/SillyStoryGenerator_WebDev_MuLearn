@@ -1,0 +1,81 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Georgia', serif;
+}
+
+.container {
+  background: url('assets/Frame 23.png') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.left-page {
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-page {
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #4b2e15;
+}
+
+#customname {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  margin-bottom: 15px;
+}
+
+.randomize {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #fff8dc;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.randomize:hover {
+  background-color: #ffe4b5;
+}
+
+.right-page label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #4b2e15;
+}
+
+#storyText {
+  background-color: #faf0e6;
+  padding: 15px;
+  border-radius: 12px;
+  color: #4b2e15;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 100%;                   
+  max-width: 300px;              
+  height: 150px;                 
+  overflow-y: auto;              
+  box-sizing: border-box;
+}
